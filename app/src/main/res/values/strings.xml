@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Very Simple Note</string>
+
+    <string name="menu_list_option_create">新しいメモの作成</string>
+    <string name="menu_list_option_notification">通知</string>
+
+    <string name="menu_list_context_header">操作を選んでください</string>
+    <string name="menu_list_context_del">削除</string>
+
+    <string name="tv_title">タイトル:</string>
+    <string name="tv_content">メモ:</string>
+    <string name="bt_create">保存</string>
+    <string name="bt_back">閉じる</string>
+
+    <string name="notification_channel_name">通知サンプル</string>
+    <string name="notification_title_finish">Very Simple Noteからの通知</string>
+    <string name="notification_text_finish">通知ボタンを押しました。</string>
+</resources>
