@@ -15,4 +15,19 @@
     <string name="notification_channel_name">通知サンプル</string>
     <string name="notification_title_finish">Very Simple Noteからの通知</string>
     <string name="notification_text_finish">通知ボタンを押しました。</string>
+
+    <string name="bt_async">非同期処理</string>
+    <string name="bt_media">メディア再生</string>
+
+    <string name="memo_title">メモ</string>
+
+    <string name="tv_winfo_title">お天気詳細</string>
+
+    <string name="bt_play_play">再生</string>
+    <string name="bt_play_stop">停止</string>
+    <string name="msg_notification_title_start">再生開始</string>
+    <string name="msg_notification_text_start">音声ファイルの再生を開始しました</string>
+    <string name="msg_notification_title_finish">再生終了</string>
+    <string name="msg_notification_text_finish">音声ファイルの再生が終了しました</string>
+<!--    <string name="notification_channel_name">サービスサンプル通知</string>-->
 </resources>

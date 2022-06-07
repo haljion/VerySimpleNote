@@ -3,8 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/layout/activity_async.xml" value="0.3619791666666667" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.5548717948717948" />
+        <entry key="app/src/main/res/layout/activity_media.xml" value="0.3619791666666667" />
         <entry key="app/src/main/res/layout/activity_note_edit.xml" value="0.5548717948717948" />
+        <entry key="app/src/main/res/layout/async.xml" value="0.3553846153846154" />
         <entry key="app/src/main/res/menu/menu_context_menu_list.xml" value="0.3619791666666667" />
         <entry key="app/src/main/res/menu/menu_options_menu_list.xml" value="0.5548717948717948" />
       </map>

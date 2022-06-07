@@ -8,10 +8,7 @@ import android.view.ContextMenu
 import android.view.Menu
 import android.view.MenuItem
 import android.view.View
-import android.widget.AdapterView
-import android.widget.ListView
-import android.widget.SimpleAdapter
-import android.widget.Toast
+import android.widget.*
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.NotificationCompat
 import androidx.core.app.NotificationManagerCompat
@@ -188,6 +185,20 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
+    fun onAsyncButtonClick(view: View) {
+        // インテントオブジェクトを生成
+        val intentAsync = Intent(this@MainActivity, AsyncActivity::class.java)
+        // 第2画面の起動
+        startActivity(intentAsync)
+    }
+
+    fun onMediaButtonClick(view: View) {
+        // インテントオブジェクトを生成
+        val intentMedia = Intent(this@MainActivity, MediaActivity::class.java)
+        // 第2画面の起動
+        startActivity(intentMedia)
+    }
+
     private fun getDbData(): MutableList<MutableMap<String, String>>{
         val noteList: MutableList<MutableMap<String, String>> = mutableListOf()
 
@@ -204,14 +215,12 @@ class MainActivity : AppCompatActivity() {
             val idxId = cursor.getColumnIndex("_id")
             val idxTitle = cursor.getColumnIndex("title")
             val idxContent = cursor.getColumnIndex("content")
-//            val content = cursor.getString(idxContent)
 
             // カラムのインデックス値を元に実際のデータを取得
             noteList.add(mutableMapOf(
                 "id" to cursor.getString(idxId),
                 "title" to cursor.getString(idxTitle),
                 "content" to cursor.getString(idxContent)
-//                "content" to if(content.length <= 5) content else "${content.substring(0,5)}..."
             ))
         }
 
